@@ -1,0 +1,11 @@
+class Messages:
+    USER_EXIST = 'This email address {email} has already been taken!'
+    LOGIN_FAILED = 'Invalid email address or password'
+    LOGIN_SUCCESS = 'Welcome back! {name}! Happy to see you again ^_^'
+    REGISTRATION_FAILED = 'Registration failed! An error has occurred'
+    REGISTRATION_SUCCESS = 'Account {email} successfully created! Please check your email {email} for confirmation'
+    CREDENTIAL_EMPTY = '{credential} must not be empty or null'
+    EMAIL_VALID = 'Email can only have 50 characters maximum, and must be valid email address.'
+    PASSWORD_VALID = 'Password can only have 6 -> 20 characters.'
+    FIRST_NAME_VALID = 'First name can only have 2 -> 50 characters.'
+    LAST_NAME_VALID = 'Last name can only have 2 -> 50 characters.'
